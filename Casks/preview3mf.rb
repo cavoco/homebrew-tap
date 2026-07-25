@@ -2,8 +2,7 @@ cask "preview3mf" do
   version "1.0.17"
   sha256 "af8408cfce9422dcdc585806ac5fcd05eb54c3535063467c724fc503b3ccacfa"
 
-  url "https://github.com/cavoco/Preview3MF/releases/download/v#{version}/Preview3MF-v#{version}-universal.zip",
-      verified: "github.com/cavoco/Preview3MF/"
+  url "https://github.com/cavoco/Preview3MF/releases/download/v#{version}/Preview3MF-v#{version}-universal.zip"
   name "Preview3MF"
   desc "Quick Look extension for previewing .3mf 3D-printing files"
   homepage "https://github.com/cavoco/Preview3MF"
